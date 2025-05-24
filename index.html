@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body class="bg-black">
+<header>
+    <nav class="bg-black shadow-md">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16">
+      <!-- Logo -->
+      <div class="flex-shrink-0 flex items-center">
+        <img 
+          src="images/Nouman.png" 
+          class="h-24 mt-1.5 object-contain" 
+        >
+      </div>
+
+       <!-- Desktop Menu with Glow Effect -->
+      <div class="hidden md:flex space-x-10  items-center">
+        <a href="#about" class="text-gray-400 text-xl   font-pixel transition-all duration-300 hover:text-green-600 hover:drop-shadow-[0_0_8px_rgba(74,222,128,0.8)]">About</a>
+        <a href="#projects" class="text-gray-400 text-xl font-pixel transition-all duration-300 hover:text-green-600 hover:drop-shadow-[0_0_8px_rgba(74,222,128,0.8)]">Projects</a>
+        <a href="#skills" class="text-gray-400 text-xl   font-pixel transition-all duration-300 hover:text-green-600 hover:drop-shadow-[0_0_8px_rgba(74,222,128,0.8)]">Skills</a>
+        <a href="#contact" class="text-gray-400 text-xl font-pixel transition-all duration-300 hover:text-green-600 hover:drop-shadow-[0_0_8px_rgba(74,222,128,0.8)]">Contact</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn" class="text-green-600 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu with Glow Effect -->
+  <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2 bg-black">
+    <a href="#about" class="block text-gray-400 text-lg font-pixel transition-all duration-300 hover:text-green-600 hover:drop-shadow-[0_0_8px_rgba(74,222,128,0.8)] py-2">About</a>
+    <a href="#projects" class="block text-gray-400 text-lg font-pixel transition-all duration-300 hover:text-green-600 hover:drop-shadow-[0_0_8px_rgba(74,222,128,0.8)] py-2">Projects</a>
+    <a href="#skills" class="block text-gray-400 text-lg font-pixel transition-all duration-300 hover:text-green-600 hover:drop-shadow-[0_0_8px_rgba(74,222,128,0.8)] py-2">Skills</a>
+    <a href="#contact" class="block text-gray-400 text-lg font-pixel transition-all duration-300 hover:text-green-600 hover:drop-shadow-[0_0_8px_rgba(74,222,128,0.8)] py-2">Contact</a>
+  </div>
+</nav>
+</nav>
+
+
+</header>
+    <main>
+     <div class="container mt-52 mx-auto flex flex-col-reverse md:flex-row justify-between md:ml-5 items-start gap-x-10"> 
+    <div class="description md:ml-8 w-full md:w-2/3 p-4">
+        <h1 id="about" class="text-green-600 mt-5 md:mt-20 p-4 font-bebas text-xl md:text-5xl tracking-wider">ABOUT ME</h1>
+        <p id="typewriter" class="text-white p-4 font-pixel animate-typing overflow-hidden"><span id="cursor" class="cursor-blink">|</span></p>
+        <br>
+        <a href="My-Resume.pdf" target="_blank">
+        <button class="cursor-pointer ml-1.5 h-10 flex justify-between bg-gray-800 px-3 py-2 rounded-full text-green-600 tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 hover:ring-green-600 font-pixel w-[180px]">
+            Resume
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-12 animate-bounce">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"></path>
+            </svg>
+        </button>
+        </a>
+    </div>
+    <div class="profilepic md:sticky md:top-20 mb-8 md:mb-0 flex justify-center md:block w-full md:w-auto"> 
+        <img 
+            src="images/goodboi.jpeg" 
+            class="rounded-lg   mx-auto md:ml-6 w-64 h-64 md:w-80 md:h-80 object-cover hover:drop-shadow-[0_0_20px_rgba(74,222,128,0.8)] transition-all duration-300 ease-in-out"
+        >
+    </div>
+</div>
+        <br>
+        <br>
+
+        <!--Projects Section-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<section class="px-4 py-16 sm:px-6 lg:px-8 mt-64">
+      <div class="mx-auto max-w-7xl">
+    <!-- Section Header -->
+    <div class="mb-16  text-center">
+      
+      <h2 id="projects" class="mt-2 text-4xl font-bebas tracking-wider text-green-600 sm:text-5xl">PROJECTS</h2>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Project 1 -->
+      <div class="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
+        <div class="h-64 overflow-hidden">
+          <img src="images/Screenshot 2025-05-24 233743.png " alt="UI Design Project" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-gray-900 to-transparent p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
+          <div class="translate-y-8 transform transition-transform duration-300 group-hover:translate-y-0">
+            <h3 class="text-2xl font-bold text-white">FlowCare</h3>
+            <p class="mt-2 text-orange-300">A gamified menstrual health platform with education tools, period tracking, parent-child dashboards, and an e-commerce store making periods easier for young women.</p>
+            <div class="mt-4 flex space-x-2">
+              <span class="rounded-full bg-blue-600 px-3 py-1 text-xs font-semibold text-white">Tailwind</span>
+              <span class="rounded-full bg-purple-600 px-3 py-1 text-xs font-semibold text-white">MERN</span>
+            </div>
+            <a href="https://flow-care.vercel.app/" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex items-center text-white transition-colors hover:text-green-600">
+              View Project
+              <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
+        <div class="h-64 overflow-hidden">
+          <img src="images/Screenshot 2025-05-24 233901.png" alt="Mobile App Project" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-gray-900 to-transparent p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
+          <div class="translate-y-8 transform transition-transform duration-300 group-hover:translate-y-0">
+            <h3 class="text-2xl font-bold text-white">Friend Request</h3>
+            <p class="mt-2 text-orange-300">An interactive Instagram-style friend-request system built with HTML, CSS, and DOM manipulation.</p>
+            <div class="mt-4 flex space-x-2">
+              <span class="rounded-full bg-green-600 px-3 py-1 text-xs font-semibold text-white">HTML</span>
+              <span class="rounded-full bg-red-600 px-3 py-1 text-xs font-semibold text-white">CSS</span>
+              <span class="rounded-full bg-yellow-600 px-3 py-1 text-xs font-semibold text-white">JS</span>
+            </div>
+            <a href="https://github.com/MOHAMMED-NOUMAN/js-projects/tree/main/friend-request" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex items-center text-white transition-colors hover:text-green-600">
+              View Project
+              <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
+        <div class="h-64 overflow-hidden">
+          <img src="images/Screenshot 2025-05-24 234107.png" alt="E-commerce Project" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-gray-900 to-transparent p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
+          <div class="translate-y-8 transform transition-transform duration-300 group-hover:translate-y-0">
+            <h3 class="text-2xl font-bold text-white">Custom Cursor</h3>
+            <p class="mt-2 text-orange-300">A sleek, circular white cursor designed to enhance UI interactivity and style.</p>
+            <div class="mt-4 flex space-x-2">
+              <span class="rounded-full bg-yellow-600 px-3 py-1 text-xs font-semibold text-white">HTML</span>
+              <span class="rounded-full bg-indigo-600 px-3 py-1 text-xs font-semibold text-white">CSS</span>
+              <span class="rounded-full bg-green-600 px-3 py-1 text-xs font-semibold text-white">JS</span>
+
+            </div>
+            <a href="https://github.com/MOHAMMED-NOUMAN/js-projects/tree/main/custom-cursor" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex items-center text-white transition-colors hover:text-green-600">
+              View Project
+              <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View More Button -->
+    <div class="mt-16 text-center">
+      <a href="#" class="inline-flex items-center rounded-full border border-green-600 px-8 py-3 text-base font-medium text-green-600 transition-colors duration-300 hover:bg-green-600 hover:text-white">
+        Explore All Projects
+        <i class="fas fa-long-arrow-alt-right ml-3"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+        <!--Skills Section-->
+        <div class="w-full max-w-4xl p-6 mx-auto mt-72">
+    <h2 id="skills" class="text-3xl font-bebas tracking-wider text-4xl sm:text-5xl text-center text-green-600 mb-6">My Skills</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+            <div class="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-12 h-12 mb-2">
+                <span class="text-gray-300">HTML5</span>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="w-12 h-12 mb-2">
+                <span class="text-gray-300">CSS3</span>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-12 h-12 mb-2">
+                <span class="text-gray-300">JavaScript</span>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="React" class="w-12 h-12 mb-2">
+                <span class="text-gray-300">Linux</span>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Next.js" class="w-12 h-12 mb-2">
+                <span class="text-gray-300">Node.js</span>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS" class="w-12 h-12 mb-2">
+                <span class="text-gray-300">TailwindCSS</span>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Node.js" class="w-12 h-12 mb-2">
+                <span class="text-gray-300">GitHub</span>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-12 h-12 mb-2">
+                <span class="text-gray-300">Git</span>
+            </div>
+        </div>
+    </main>
+
+    
+<footer class="mt-16 mt:44 md:mt-32 xl:mt-48 mx-auto w-full relative text-center bg-black text-green-600">
+        <div id="contact" class="px-6 py-8 md:py-14 xl:pt-20 xl:pb-12">
+        <h2 class="font-bold text-3xl xl:text-4xl font-pixel leading-snug">
+            Want to get in touch with me?<br>Follow me on my socials.
+        </h2>
+        
+        <div class="mt-14 xl:mt-20">
+            <nav class="flex flex-wrap justify-center text-3xl font-pixel">
+                <div class="px-5 py-2 text-gray-300 hover:text-green-600 hover:drop-shadow-[0_0_10px_rgba(74,222,128,0.8)]"><a href="https://www.instagram.com/noumxn_05?igsh=MTIyZmNtdTIwcWRkMQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="px-5 py-2 text-gray-300 hover:text-green-600 hover:drop-shadow-[0_0_10px_rgba(74,222,128,0.8)]"><a href="#"><i class="fa-brands fa-square-twitter"></i></a></div>
+                <div class="px-5 py-2 text-gray-300 hover:text-green-600 hover:drop-shadow-[0_0_10px_rgba(74,222,128,0.8)]"><a href="https://www.linkedin.com/in/mohammed-nouman-3320a7279/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                <div class="px-5 py-2 text-gray-300 hover:text-green-600 hover:drop-shadow-[0_0_10px_rgba(74,222,128,0.8)]"><a href="https://github.com/MOHAMMED-NOUMAN" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                <div class="px-5 py-2 text-gray-300 hover:text-green-600 hover:drop-shadow-[0_0_10px_rgba(74,222,128,0.8)]"><a href="https://discordapp.com/users/731194034034573372"target="_blank"><i class="fa-brands fa-discord"></i></a></div>
+            </nav>
+            <p class="mt-7 text-green-600 text-lg">©All Rights Reserved, Made with 💖,2025</p>
+        </div>
+    </div>
+</footer>
+<button id="back-to-top" class="fixed bottom-8 right-8 z-50 hidden p-3 bg-black rounded-full shadow-lg hover:bg-gray-900 transition-all duration-300 border-2 border-green-600 animate-bounce">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+  </svg>
+</button>
+   <script src="script.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
