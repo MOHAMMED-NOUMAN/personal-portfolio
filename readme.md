@@ -16,9 +16,9 @@ I'm a passionate and creative **web developer** who loves crafting clean, functi
 - 🔹 CSS3  
 - 🌪️ Tailwind CSS  
 - ⚡ JavaScript  
-- 🎨 Responsive Design & Pixel Art UI  
+- 🧠 Node JS 
 - 🧰 Git, VS Code  
-- 🧠 Basic Figma
+- 🐧 Linux
 
 ---
 
@@ -38,7 +38,7 @@ A few highlights from what I’ve built:
 
 **Live Preview** 🌍
 
-Check it out live here: [your live site link]
+Check it out live here: https://mohammed-nouman.github.io/personal-portfolio/
 
 ---
 
