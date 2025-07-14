@@ -48,3 +48,9 @@ const text = "Hi, I'm Mohammed Nouman, an IT undergrad at MJCET passionate about
         window.addEventListener('load', () => {
             setTimeout(typeWriter, 500);
         });
+ window.addEventListener('load', () => {
+    setTimeout(() => {
+      const loader = document.getElementById('loader');
+      if (loader) loader.style.display = 'none';
+    }, 3000);
+  });
